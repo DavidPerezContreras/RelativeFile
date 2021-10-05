@@ -8,7 +8,8 @@ public class Main {
 			slash="\\";
 		}
 		
-		File rutaDatosRelativa= new File("."+slash+"src"+slash+"datos");
+		//File rutaDatosRelativa= new File("."+slash+"src"+slash+"datos");
+		File rutaDatosRelativa= new File("."+slash+"datos");
 		
 		if(rutaDatosRelativa.exists()) {
 			System.out.println("La ruta indicada existe");
